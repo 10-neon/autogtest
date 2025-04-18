@@ -1,1 +1,1 @@
-::: autogtest.foo
+::: autogtest.cli
