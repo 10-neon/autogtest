@@ -25,11 +25,11 @@ pip install autogtest
 ## Basic Usage
 Generate mock for a single header:
 ```bash
-autogtest gmock path/to/header.h --mock output/mock.h --include base/include
+autogtest path/to/header.h --mock output/mock.h --include base/include
 ```
 Batch process a directory:
 ```bash
-autogtest gmock path/to/headers/ --mock output/mocks/ --include base/include
+autogtest path/to/headers/ --mock output/mocks/ --include base/include
 ```
 ## Command Options
 ```txt
