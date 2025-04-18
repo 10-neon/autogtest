@@ -104,9 +104,6 @@ ignore = [
     "E501",
     # DoNotAssignLambda
     "E731",
-    # Type Annotation
-    # "UP035",
-    # "UP006"
 ]
 
 [tool.ruff.lint.per-file-ignores]
