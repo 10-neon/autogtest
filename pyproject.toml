@@ -17,6 +17,11 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "cxxheaderparser>=1.5.0",
+    "jinja2>=3.1.6",
+    "typer>=0.15.2",
+]
 
 [project.urls]
 Homepage = "https://10-neon.github.io/autogtest/"
@@ -99,6 +104,9 @@ ignore = [
     "E501",
     # DoNotAssignLambda
     "E731",
+    # Type Annotation
+    # "UP035",
+    # "UP006"
 ]
 
 [tool.ruff.lint.per-file-ignores]
@@ -106,3 +114,6 @@ ignore = [
 
 [tool.ruff.format]
 preview = true
+
+[project.scripts]
+autogtest = "autogtest.cli:main"
